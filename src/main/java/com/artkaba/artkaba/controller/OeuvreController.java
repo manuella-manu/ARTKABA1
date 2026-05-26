@@ -20,7 +20,7 @@ import java.util.UUID;
 
 @RestController
 @RequestMapping("/api/oeuvres")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://artkaba.netlify.app")
 public class OeuvreController {
 
     @Autowired

@@ -11,7 +11,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/etudiants")
-@CrossOrigin(origins = "http://localhost:5173") // Ajuste selon le port de ton appli React
+@CrossOrigin(origins = "https://artkaba.netlify.app") // Ajuste selon le port de ton appli React
 public class EtudiantController {
 
     @Autowired

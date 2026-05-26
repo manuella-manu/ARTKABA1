@@ -13,7 +13,7 @@ import java.util.Random;
 
 @RestController
 @RequestMapping("/api/auth")
-@CrossOrigin(origins = "http://localhost:5173") // Aligné sur le port par défaut de Vite/React
+@CrossOrigin(origins = "https://artkaba.netlify.app")// Aligné sur le port par défaut de Vite/React
 public class AuthController {
 
     @Autowired

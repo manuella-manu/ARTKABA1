@@ -10,9 +10,9 @@ public class WebConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**") // S'applique à toutes les routes de l'API
-                .allowedOrigins("http://localhost:5173") // Ton frontend React
+                .allowedOrigins("https://artkaba.netlify.app") // Ton frontend React
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                 .allowedHeaders("*")
                 .allowCredentials(true);
     }
-}
+}   
